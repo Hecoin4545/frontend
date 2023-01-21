@@ -24,7 +24,7 @@ export default function Signup(props) {
     if (json.success === true) {
       localStorage.setItem('token', json.token);
       window.location.href =
-        'https://heducation-resources.herokuapp.com/resources/shahhet/12344283477@ea3rq38ybj9ugq/shahhet/website/secure/12e134fja2433jal3';
+        'resources/shahhet/12344283477@ea3rq38ybj9ugq/shahhet/website/secure/12e134fja2433jal3';
     } else {
       alert('invalid Credentials');
     }
